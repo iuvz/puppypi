@@ -1,0 +1,3 @@
+<launch>
+  <node name="sensor" pkg="sensor" type="sensor_control.py" required="true" output="screen" />
+</launch>

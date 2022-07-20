@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/install
+
+Name: object_tracking
+Description: Description of object_tracking
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs std_srvs

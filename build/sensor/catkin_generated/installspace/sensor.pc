@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/install
+
+Name: sensor
+Description: Description of sensor
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs

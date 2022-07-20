@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/devel
+
+Name: ldlidar
+Description: Description of ldlidar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

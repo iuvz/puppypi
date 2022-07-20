@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/install
+
+Name: lab_config
+Description: Description of lab_config
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/devel
+
+Name: asr_control
+Description: Description of asr_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

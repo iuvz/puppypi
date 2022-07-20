@@ -1,0 +1,4 @@
+<launch>
+    <!--usb摄像头-->
+    <include file="$(find usb_cam)/launch/usb_cam-test.launch" />
+</launch>

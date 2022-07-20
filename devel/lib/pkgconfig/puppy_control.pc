@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/devel
+
+Name: puppy_control
+Description: Description of puppy_control
+Version: 0.0.0
+Cflags: -I/home/pi/puppy_pi/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs std_srvs

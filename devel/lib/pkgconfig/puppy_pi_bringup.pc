@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/devel
+
+Name: puppy_pi_bringup
+Description: Description of puppy_pi_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

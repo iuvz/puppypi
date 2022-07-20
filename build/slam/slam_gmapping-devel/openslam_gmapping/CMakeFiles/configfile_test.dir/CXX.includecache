@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/puppy_pi/devel/include/gmapping/configfile/configfile_export.h
+
+/home/pi/puppy_pi/src/slam/slam_gmapping-devel/openslam_gmapping/configfile/configfile_test.cpp
+cstdlib
+-
+iostream
+-
+gmapping/configfile/configfile.h
+/home/pi/puppy_pi/src/slam/slam_gmapping-devel/openslam_gmapping/configfile/gmapping/configfile/configfile.h
+
+/home/pi/puppy_pi/src/slam/slam_gmapping-devel/openslam_gmapping/include/gmapping/configfile/configfile.h
+iostream
+-
+string
+-
+map
+-
+gmapping/configfile/configfile_export.h
+-
+

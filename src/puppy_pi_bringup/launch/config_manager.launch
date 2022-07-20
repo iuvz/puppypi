@@ -1,0 +1,3 @@
+<launch>
+    <rosparam file="$(find puppy_pi_bringup)/config/config.yaml" command="load"/>
+</launch>

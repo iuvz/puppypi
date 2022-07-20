@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/install
+
+Name: rf2o_laser_odometry
+Description: Description of rf2o_laser_odometry
+Version: 1.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lrf2o_laser_odometry
+Requires: nav_msgs roscpp sensor_msgs std_msgs tf

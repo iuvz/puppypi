@@ -1,0 +1,10 @@
+(cl:defpackage puppy_control-srv
+  (:use )
+  (:export
+   "SETRUNACTIONNAME"
+   "<SETRUNACTIONNAME-REQUEST>"
+   "SETRUNACTIONNAME-REQUEST"
+   "<SETRUNACTIONNAME-RESPONSE>"
+   "SETRUNACTIONNAME-RESPONSE"
+  ))
+

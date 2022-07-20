@@ -1,0 +1,8 @@
+prefix=/home/pi/puppy_pi/install
+
+Name: performance
+Description: Description of performance
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
